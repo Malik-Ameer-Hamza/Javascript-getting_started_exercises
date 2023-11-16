@@ -1,0 +1,12 @@
+var guestList = ["Rashid", "Fatima", "Mubashir", "Zain"];
+console.log("Hey ".concat(guestList[0], ", I'm inviting you for dinner tonight at my place."));
+console.log("Hey ".concat(guestList[1], ", I'm inviting you for dinner tonight at my place."));
+console.log("Hey ".concat(guestList[2], ", I'm inviting you for dinner tonight at my place."));
+console.log("Hey ".concat(guestList[3], ", I'm inviting you for dinner tonight at my place."));
+console.log("Sorry, ".concat(guestList[2], " can't make it tonight."));
+guestList.splice(2, 1, "Irfan");
+console.log("\nHere is the list of our new guests.\n");
+console.log("Hey ".concat(guestList[0], ", I'm inviting you for dinner tonight at my place."));
+console.log("Hey ".concat(guestList[1], ", I'm inviting you for dinner tonight at my place."));
+console.log("Hey ".concat(guestList[2], ", I'm inviting you for dinner tonight at my place."));
+console.log("Hey ".concat(guestList[3], ", I'm inviting you for dinner tonight at my place."));
